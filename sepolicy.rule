@@ -1,0 +1,2 @@
+# Fix cmd package
+allow system_server * * *
