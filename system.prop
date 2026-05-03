@@ -16,17 +16,17 @@ dalvik.vm.restore-dex2oat-threads=4
 dalvik.vm.dex2oat-cpu-set=0,1,2,3
 dalvik.vm.dex2oat-threads=4
 
-dalvik.vm.foreground-heap-growth-multiplier=5.0
-dalvik.vm.heapstartsize=16m
-dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.foreground-heap-growth-multiplier=1.0
+dalvik.vm.heapstartsize=64m
+dalvik.vm.heapgrowthlimit=512m
 dalvik.vm.heapsize=512m
 dalvik.vm.heaptargetutilization=0.5
-dalvik.vm.heapminfree=16m
-dalvik.vm.heapmaxfree=64m
+dalvik.vm.heapminfree=64m
+dalvik.vm.heapmaxfree=512m
 dalvik.vm.image-dex2oat-Xmx=512m
-dalvik.vm.image-dex2oat-Xms=16m
+dalvik.vm.image-dex2oat-Xms=64m
 dalvik.vm.dex2oat-Xmx=512m
-dalvik.vm.dex2oat-Xms=16m
+dalvik.vm.dex2oat-Xms=64m
 
 dalvik.vm.disable-art-service-dexopt=false
 dalvik.vm.dexopt.secondary=true
